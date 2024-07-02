@@ -22,7 +22,7 @@ from mantentubike.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('bienvenida/', bienvenida),
-    
     path('cronometro/', include('cronometro.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),  # URLs para el sistema de autenticación
 
 ]
