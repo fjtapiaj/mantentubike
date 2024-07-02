@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('background.jpg'); /* Reemplaza con tu imagen de fondo */
+    background-image: url('../img/IMG_5812.JPG'); /* Reemplaza con tu imagen de fondo */
     background-size: cover;
     background-position: center;
     display: flex;
